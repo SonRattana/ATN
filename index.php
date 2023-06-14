@@ -12,16 +12,16 @@ require_once 'header.php';
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="../img/p06.jpg"class="d-block w-100" alt="..." height="900px">
+          <img src="./images/p06.jpg"class="d-block w-100" alt="..." height="900px">
         </div>
         <div class="carousel-item">
-          <img src="../img/p07.jpg" class="d-block w-100" alt="..." height="900px">
+          <img src="./images/p07.jpg" class="d-block w-100" alt="..." height="900px">
         </div>
         <div class="carousel-item">
-          <img src="../img/pp09.jpg" class="d-block w-100" alt="..." height="900px">
+          <img src="./images/pp09.jpg" class="d-block w-100" alt="..." height="900px">
         </div>
         <div class="carousel-item">
-          <img src="../img/p08.jpg" class="d-block w-100" alt="..." height="900px">
+          <img src="./images/p08.jpg" class="d-block w-100" alt="..." height="900px">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -36,7 +36,7 @@ require_once 'header.php';
 </baner>
 <style>
   body{
-    background-image: url('../img/ảnh-nền-máy-tính-cực-ấn-tượng-1536x864.jpg');
+    background-image: url('./images/ảnh-nền-máy-tính-cực-ấn-tượng-1536x864.jpg');
     background-size: cover;
     background-position-y: 80px;
 }
@@ -70,7 +70,7 @@ h2{
             <div class="col-md-4 pb-3">
                     <div class="card">
                         <img
-                        src="../img/<?=$row['pImage']?>"
+                        src="./images/<?=$row['pImage']?>"
                         class="card-img-top"
                         alt="Product1>" style="margin: auto; width: 300px; height: 250px;"
                         />

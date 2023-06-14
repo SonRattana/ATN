@@ -30,7 +30,7 @@ require_once 'header.php';
     <body>
       <div class="col-md-4 pb-3">
         <div class="card">
-          <img src="../img/<?= $r['pImage'] ?>" class="card-img-top" alt="Product1>" style="margin: auto; width: 300px; height: 250px;" />
+          <img src="./images/<?= $r['pImage'] ?>" class="card-img-top" alt="Product1>" style="margin: auto; width: 300px; height: 250px;" />
           <div class="card-body">
             <a href="detailproduct.php?pid=<?= $r['ID'] ?>" class="text-decoration-none">
               <h5 class="card-title"><?= $r['Name_product'] ?></h5>

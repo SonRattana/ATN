@@ -69,7 +69,7 @@ require_once 'header.php';
       ?>
           <div class="col-md-4 pb-3">
             <div class="card">
-              <img src="../img/<?= $row['pImage'] ?>" class="card-img-top" alt="Product1>" style="margin: auto; width: 300px; height: 250px;" />
+              <img src="./images/<?= $row['pImage'] ?>" class="card-img-top" alt="Product1>" style="margin: auto; width: 300px; height: 250px;" />
               <div class="card-body">
                 <a href="detailproduct.php?pid=<?= $row['ID'] ?>" class="text-decoration-none">
                   <h5 class="card-title"><?= $row['Name_product'] ?></h5>
@@ -94,7 +94,7 @@ require_once 'header.php';
           ?>
             <div class="col-md-4 pb-3">
               <div class="card">
-                <img src="../img/<?= $row['pImage'] ?>" class="card-img-top" alt="Product1>" style="margin: auto; width: 300px; height: 250px;" />
+                <img src="./images/<?= $row['pImage'] ?>" class="card-img-top" alt="Product1>" style="margin: auto; width: 300px; height: 250px;" />
                 <div class="card-body">
                   <a href="detailproduct.php?pid=<?= $row['ID'] ?>" class="text-decoration-none">
                     <h5 class="card-title"><?= $row['Name_product'] ?></h5>

@@ -26,7 +26,7 @@ ob_start();
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel = "stylesheet">
 
-     <link rel="icon" href="../img/logoicon.jpg">
+     <link rel="icon" href="./images/logoicon.jpg">
      
 </head>
 <style>
@@ -87,7 +87,7 @@ ob_start();
 <body>
 <nav class="navbar navbar-expand-md" style="background: #434242;border-bottom: solid 1px black;">
     <div class="container-fluid">
-        <a href="index.php" class="navbar-brand"><h1><img src="../img/gundamlogo.png"  alt="..." width="150px"></h1></a>
+        <a href="index.php" class="navbar-brand"><h1><img src="./images/gundamlogo.png"  alt="..." width="150px"></h1></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarMain">    
             <span class="navbar-toggler-icon"></span>

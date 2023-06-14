@@ -27,12 +27,12 @@ include_once ('connectproduct.php')
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
      crossorigin="anonymous" referrerpolicy="no-referrer" />
-     <link rel="icon" href="../img/logoicon.jpg">
+     <link rel="icon" href="./images/logoicon.jpg">
 </head>
 <style>
     body
     {
-    background: url('../img/ảnh-nền-máy-tính-cực-ấn-tượng-1536x864.jpg');
+    background: url('./images/ảnh-nền-máy-tính-cực-ấn-tượng-1536x864.jpg');
     background-size: cover;
     background-position-y: -80px;
     }

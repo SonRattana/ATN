@@ -30,7 +30,7 @@ require_once 'header.php';
     // if ($re->num_rows>0) :
     //     while ($row = $re->fetch_row()) :
     ?>
-    <img src="../img/<?= $row['pImage'] ?>" class="col-sm-6 col-form-label" width="50px" height="750px">
+    <img src="./images/<?= $row['pImage'] ?>" class="col-sm-6 col-form-label" width="50px" height="750px">
     <div class="col-sm-6">
 
       <h2 style="font-family: 'Catamaran', sans-serif;  line-height: 1.6;color:#8EC45B;

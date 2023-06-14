@@ -7,9 +7,9 @@ class connecttt{
     public function __construct()
     {
         $this->sever = "co28d739i4m2sb7j.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-        $this->user = "qf5ugh8im983ewom";
-        $this->password = "crnx9ah5rsh4h5lf";
-        $this->dbName = "bzwhkiiwg4xgnsdn";
+        $this->user = "glb9syectrz7fdnq";
+        $this->password = "x7cy6hpvhb4rb4gn";
+        $this->dbName = "ngh2jaskbffn5hkw";
     }
     //option 1: mysql
     function connectToMYSQL():mysqli{

@@ -6,10 +6,10 @@ class connecttt{
     public $dbName;
     public function __construct()
     {
-        $this->sever = "localhost";
-        $this->user = "root";
-        $this->password = "";
-        $this->dbName = "atn01";
+        $this->sever = "co28d739i4m2sb7j.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+        $this->user = "ihtx2tee6pwxcz70";
+        $this->password = "qdjx6v5clp045ggq";
+        $this->dbName = "hm7klepxqaurb6rk";
     }
     //option 1: mysql
     function connectToMYSQL():mysqli{

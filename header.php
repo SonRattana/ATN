@@ -120,7 +120,7 @@ ob_start();
                     else :
                     ?>
                         <a href="login.php" class="nav-item nav-link" ><i class="bi bi-door-open"></i>Login</a>
-                        <a href="register.php" class="nav-item nav-link" >Register</a>
+                        
                     <?php
                     endif;
                     ?>

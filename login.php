@@ -111,12 +111,7 @@ include_once ('connectproduct.php')
      </div>
      <div class="row pb-3">
     <div class="d-grid col-2 mx-auto">
-        <input type="submit"
-        value="Login" 
-        class="btn btn-primary"
-        name="btnLogin"
-        id="btnLogin"
-        >
+        <input type="submit" value="Login" class="btn btn-primary" name="btnLogin" id="btnLogin">
     </div> 
 </div>
 <div class="form-Back" style="justify-content: space-between; display:flex" >

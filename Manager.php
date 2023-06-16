@@ -37,7 +37,7 @@ require_once 'header.php'
             //  $dblink = $c->connectToPDO();
              $sql= "SELECT * FROM `storare` i inner join `staff` u on i.Staff_ID = u.ID inner join `store` s on s.ID = u.StoreID
               inner join `products` t on t.ID = i.product_ID where i.Store_ID = $sup";
-             $re = $dblink->query($sql);
+             $re= $dblink->query($sql);
              if($re->num_rows>0):
                 while($row=$re->fetch_assoc()):
                 
